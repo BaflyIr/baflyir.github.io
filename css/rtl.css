@@ -1,7 +1,7 @@
 @font-face {
 	font-family: "yekan";
-	src: url(fonts/Yekan.eot);
-	src: url(fonts/Yekan.eot?#iefix) format("embedded-opentype"), url(fonts/Yekan.woff) format("woff"), url(fonts/Yekan.ttf) format("truetype"), url(fonts/Yekan.svg#BYekan) format("svg");
+	src: url(../fonts/Yekan.eot);
+	src: url(../fonts/Yekan.eot?#iefix) format("embedded-opentype"), url(../fonts/Yekan.woff) format("woff"), url(../fonts/Yekan.ttf) format("truetype"), url(../fonts/Yekan.svg#BYekan) format("svg");
 	font-weight: normal;
 	font-style: normal
 }
@@ -11,12 +11,18 @@ body {
 }
 
 /*Fony Family*/
-body, section, h1 {
+body, section, h1, a {
     font-family: yekan, iranian-sans ,tahoma;
 }
 
 .col-lg-6 {
     float: right;
-    }
+}
 
-#subscribe_submit { right: auto; left: 11px; }
+#subscribe_submit {
+right: auto; left: 11px;
+    
+}
+#subscribe_submit {
+    top: 12px
+}
